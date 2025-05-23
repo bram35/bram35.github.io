@@ -10,7 +10,7 @@ document.addEventListener('keydown', function(e) {
         top: Math.random() * window.innerHeight + 'px',
         width: '100px',
         height: 'auto',
-        zIndex: '9999', // bovenop alles
+        zIndex: '999', // bovenop alles
         pointerEvents: 'none' // zodat je achterliggende elementen kunt blijven aanklikken
       });
 
