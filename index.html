@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Drink and drive simulator</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>DRINK AND DRIVE</h1>
- <div class="car"><img src="Src/Car.png" alt="Car"></div>
- <div class="road"> <img src="Src/Road.png" alt="road"> </div>
-  <script src="script.js"></script>
+    <div class="container">
+        <img id="image1" class="image" src="../dierentuin/download.jpeg" alt="rigiel">
+        <img id="image2" class="image" src="../dierentuin/hagedis_53876-59023.jpg" alt="joop">
+        <img id="image3" class="image" src="../dierentuin/pitbull-png-11553376954bqsxjpjcga.png" alt="jemairo">
+        <div class="slider-container">
+            <label for="speedSlider">Snelheid (seconden per rotatie): <span id="speedValue">4</span>s</label><br>
+            <input type="range" id="speedSlider" min="0.0001" max="10" value="4" step="0.5">
+        </div>
+        <script src="script.js"></script>
+        <script src="slider.js"></script>
+        <script src="spawneten.js"></script>
 </body>
+
 </html>
