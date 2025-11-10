@@ -9,17 +9,39 @@
 </head>
 
 <body>
-    <div class="container">
-        <img id="image1" class="image" src="../download.jpeg" alt="rigiel">
-        <img id="image2" class="image" src="../hagedis_53876-59023.jpg" alt="joop">
-        <img id="image3" class="image" src="../pitbull-png-11553376954bqsxjpjcga.png" alt="jemairo">
+     <div class="container1">
+        <div class="container2">
+            <img id="image1" class="image" src="download.jpeg" alt="rigiel">
+            <img id="image2" class="image" src="hagedis_53876-59023.jpg" alt="joop">
+            <img id="image3" class="image" src="pitbull-png-11553376954bqsxjpjcga.png" alt="jemairo">
+        </div>
+
+        <form id="dierForm">
+            <input type="text" id="dierNaam" placeholder="Naam van het dier" required>
+            <input type="file" id="dierAfbeelding" accept="image/*" required>
+            <button type="submit">Voeg toe</button>
+        </form>
+
         <div class="slider-container">
-            <label for="speedSlider">Snelheid (seconden per rotatie): <span id="speedValue">4</span>s</label><br>
+            <label for="speedSlider">Snelheid (seconden per rotatie): 
+                <span id="speedValue">4</span>s
+            </label><br>
             <input type="range" id="speedSlider" min="0.0001" max="10" value="4" step="0.5">
         </div>
-        <script src="script.js"></script>
-        <script src="slider.js"></script>
-        <script src="spawneten.js"></script>
+    </div>
+    <audio id="sound1" src="rigiel.mp3"></audio>
+    <audio id="sound2" src="joop.mp3"></audio>
+    <audio id="sound3" src="jemairo.mp3"></audio>
+
+    <script src="slider.js"></script>
+    <script src="spawneten.js"></script>
+    <script src="dierentuin.js" type="module"></script>
+    <script src="paard.js" type="module"></script>
+    <script src="hagedis.js" type="module"></script>
+    <script src="hond.js" type="module"></script>
+    <script src="soundeffect.js"></script>
+    <script src="customdier.js"></script>
 </body>
+
 
 </html>
