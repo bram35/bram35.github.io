@@ -1,0 +1,256 @@
+body{
+    margin: 0px;
+    background-color: #B2B2B2;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.buttons >h3{
+    background-color: rgba(255, 0, 0, 0.384);
+    border-radius: 25%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: 20%;
+    padding: 10px;
+}
+.h2L{
+    background-color: rgba(255, 0, 0, 0.384);
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: 30%;
+    padding: 10px;
+}
+.h2R{
+    background-color: rgba(255, 0, 0, 0.384);
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: 32%;
+    padding: 10px;
+}
+.buttons >h1{
+    margin-left: 2%;
+    border-style: outset;
+    border: 10px;
+    border-color: black;
+}
+.game{
+    background-color: rgb(201 201 201);
+    border-radius: 10%;
+    width: 10%;
+}
+.game > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.game1{
+    background-color: rgb(201 201 201);
+    border-radius: 10%;
+    width: 10%;
+}
+.game1 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.game2{
+    background-color: rgb(201 201 201);
+    width: 10%;
+    border-radius: 10%;
+}
+.game2 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.game3{
+    background-color: rgb(201 201 201);
+    width: 10%;
+    border-radius: 10%;
+}
+.game3 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.game4{
+    background-color: rgb(201 201 201);
+    width: 10%;
+    border-radius: 10%;
+}
+.game4 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.game5{
+    background-color: rgb(201 201 201);
+    width: 10%;
+    border-radius: 10%;
+}
+.game5 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.game6{
+    background-color: rgb(201 201 201);
+    width: 10%;
+    border-radius: 10%;
+}
+.game6 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.games{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    gap: 2%;
+    object-fit: cover;
+}
+
+.agame{
+    background-color: rgb(201 201 201);
+    border-radius: 10%;
+    width: 10%;
+}
+.agame > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.agame1{
+    background-color: rgb(201 201 201);
+    border-radius: 10%;
+    width: 10%;
+}
+.agame1 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.agame2{
+    background-color: rgb(201 201 201);
+    border-radius: 10%;
+    width: 10%;
+}
+.agame2 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.agame3{
+    background-color: rgb(201 201 201);
+    border-radius: 10%;
+    width: 10%;
+}
+.agame3 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.agame4{
+    background-color: rgb(201 201 201);
+    border-radius: 10%;
+    width: 10%;
+}
+.agame4 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.agame5{
+    background-color: rgb(201 201 201);
+    border-radius: 10%;
+    width: 10%;
+}
+.agame5 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.agame6{
+    background-color: rgb(201 201 201);
+    border-radius: 10%;
+    width: 10%;
+}
+.agame6 > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+.games1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    gap: 2%;
+}
+.agame > img{
+    display: flex;
+    object-fit: fill;
+
+
+}
+.buttons1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.h2L1{
+    background-color: rgba(255, 0, 0, 0.384);
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: 30%;
+    padding: 10px;
+}
+.h2R1{
+    background-color: rgba(255, 0, 0, 0.384);
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-left: 32%;
+    padding: 10px;
+}
+.buttons1 >h3{
+    background-color: rgba(255, 0, 0, 0.384);
+    border-radius: 25%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: 20%;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.buttons1 >h1{
+    margin-left: 2%;
+    border-style: outset;
+    border: 10px;
+    border-color: black;
+}
+.games2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    gap: 2%;
+    margin-top: 1%;
+}
+footer{
+    padding: 5%;
+    background-color: rgb(36 36 36);
+    margin-top: 10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}

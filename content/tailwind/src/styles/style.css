@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    background-color: #B2B2B2;
+}
+
+nav {
+    height: 115px;
+    width: 100%;
+    display: flex;
+}
+.mainshape {
+    z-index: 1;
+    position: absolute;
+    background-color: #6F2A2A;
+    height: 65px;
+    width: 100%;
+}
+.shapes {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    margin-top: 45px;
+    width: 15%;
+    height: 65px;
+}
+
+.shapes > .rectangle {
+    position: relative;
+    background-color: #6F2A2A;
+    height: 100%;
+    width: 80%;
+}
+.shapes > .triangle {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(to top left, #ffffff00 0%, #ffffff00 50%, #6F2A2A 50%, #6F2A2A 100%);
+}
+
+.logo {
+    position: absolute;
+    z-index: 4;
+    width: 10%;
+    height: 12.5%;
+    left: 1.5%;
+    top: 5px;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+
+
+.popout {
+    width: 85%;
+    margin-top: 65px;
+    margin-right: 0px;
+    margin-left: auto;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row-reverse nowrap;
+}
+.popout > .rectangle {
+    background-color: #C1C1C1;
+    width: 95%;
+    height: 100%;
+}
+.popout > .triangle {
+    background: linear-gradient(to top right, #ffffff00 0%, #ffffff00 50%, #C1C1C1 50%, #C1C1C1 100%);
+    width: 5%;
+    height: 100%;
+}
+
+
+.links {
+    z-index: 3;
+    position: absolute;
+    width: 60%;
+    height: 30px;
+    margin-top: 16.5px;
+    margin-left: 25%;
+    margin-right: 75%;
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.links > a {
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.links > a > span {
+    text-align: center;
+    color: white;
+    height: 100%;
+    font-size: 25px;
+}
+
+
